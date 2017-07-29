@@ -1,0 +1,6 @@
+--- # put the hostname in index.html
+- hosts: single
+  become: yes
+  roles: 
+    - apache-webserver
+    - customize-apache
